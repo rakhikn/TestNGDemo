@@ -32,6 +32,8 @@ public class SearchGoogleTest {
     }   
     @Test
     public void testSearch(){
+    	System.out.println("GIT Example");
+    	
         driver = new ChromeDriver();
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
