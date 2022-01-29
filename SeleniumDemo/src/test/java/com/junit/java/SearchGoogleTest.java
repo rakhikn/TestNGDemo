@@ -32,11 +32,9 @@ public class SearchGoogleTest {
     }   
     @Test
     public void testSearch(){
-        System.out.println("----This is the beginning of our test----");
         driver = new ChromeDriver();
         driver.get("https://www.google.com/");
         driver.manage().window().maximize();
-        System.out.println("----Let us start searching the keywords----");
         //Entering keyword in search box and searching it
         WebElement srchBox = driver.findElement(By.name("q"));
         srchBox.sendKeys(kyWrd1 + " " + kyWrd2 +" "+ kyWrd3+ "\n");
