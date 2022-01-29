@@ -8,4 +8,6 @@ import org.junit.runners.Suite.SuiteClasses;
 @SuiteClasses({ Junittest1.class, Junittest2.class })
 public class AllTests {
 
+	
+	
 }
