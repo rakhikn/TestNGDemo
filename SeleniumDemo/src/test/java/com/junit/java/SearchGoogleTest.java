@@ -39,7 +39,7 @@ public class SearchGoogleTest {
         driver.manage().window().maximize();
         //Entering keyword in search box and searching it
         WebElement srchBox = driver.findElement(By.name("q"));
-        System.out.println("changed code");
+        System.out.println("changed code for feature1");
         srchBox.sendKeys(kyWrd1 + " " + kyWrd2 +" "+ kyWrd3+ "\n");
         //Printing the title of the new page
         String title = driver.getTitle();
