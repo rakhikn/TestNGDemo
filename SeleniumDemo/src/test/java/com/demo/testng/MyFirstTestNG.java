@@ -19,7 +19,7 @@ public class MyFirstTestNG {
 	    String baseUrl = "https://www.toolsqa.com/";
 	      
 	         
-	        System.out.println("Launching Google Chrome browser"); 
+	        System.out.println("Launching Google Chrome browser now"); 
 	        driver = new ChromeDriver();
 	        driver.get(baseUrl);
 	        String testTitle = "Free QA Automation Tools For Everyone";
